@@ -2,6 +2,8 @@
 
 Recently [@malaysianpaygap](https://www.instagram.com/malaysianpaygap/) has gotten quite famous as a platform that enables workers throughout Malaysia to anonymously share their salaries amongst other Malaysians. Its a great initiative and I am fully supportive behind ensuring that Malaysians are not taken advantage of by companies and get a liveable wage(especially when inflation is sky high).
 
+**NOTE**: If you just want the data then you can download the zipped folder from [here](https://drive.google.com/file/d/1vRdXPQJwJJl6K_Olz-1bi9LVCWH3i7SI/view?usp=sharing).
+
 ## How to run
 
 1. Run the following to get conda environment setup
