@@ -7,11 +7,10 @@ Recently [@malaysianpaygap](https://www.instagram.com/malaysianpaygap/) has gott
 ## How to run
 
 1. Run the following to get conda environment setup
+   **NOTE**: check the Makefile for all make commands
 
 ```bash
-  conda create --name pay python=3.7
-  conda activate pay
-  pip install -r requirements.txt
+make setup
 ```
 
 2. Next we will need to scrape all the data from Instagram manually using BeautifulSoup!
@@ -19,8 +18,7 @@ Recently [@malaysianpaygap](https://www.instagram.com/malaysianpaygap/) has gott
    The conda environment will have it installed for you already.
 
 ```bash
-# you might need to pass in your username to login
-instaloader --login=USERNAME profile malaysianpaygap --dirname-pattern={profile} --comments --no-profile-pic --post-metadata-txt="Caption: {caption}\n{likes} likes\n{comments} comments\n" --filename-pattern={date_utc:%Y}/{shortcode}
+make scrape_instagram username="YOUR_USERNAME"
 ```
 
 This should create the following directory structure:
