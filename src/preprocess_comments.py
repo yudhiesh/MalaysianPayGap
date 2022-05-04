@@ -105,7 +105,7 @@ def main_preprocess_comments():
     df_final = pd.concat(
         [df, df_comments, df_owner],
         axis=1,
-    ).drop(["comments", "owner", 0], axis=1)
+    ).drop(["comments", "owner"], axis=1)
     df_final.to_csv(save_path, index=False)
     logger.info(f"DataFrame saved to {save_path}")
     logger.info(f"Completed {file_name}")
