@@ -20,7 +20,7 @@ fsspec==2022.2.0
 idna==3.3
 importlib-metadata==4.2.0
 importlib-resources==5.4.0
-instaloader==4.8.4
+instaloader==4.9.2
 ipykernel==6.9.1
 ipython==7.32.0
 ipython-genutils==0.2.0
