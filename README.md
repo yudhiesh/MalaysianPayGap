@@ -20,7 +20,7 @@ Recently [@malaysianpaygap](https://www.instagram.com/malaysianpaygap/) has gott
 
 ```bash
 # you might need to pass in your username to login
-instaloader --login=USERNAME profile malaysianpaygap --dirname-pattern={profile} --comments --no-profile-pic --post-metadata-txt="Caption: {caption}\n{likes} likes\n{comments} comments\n" --filename-pattern={date_utc:%Y}/{shortcode}
+instaloader --login=USERNAME malaysianpaygap --dirname-pattern={profile} --comments --no-profile-pic --post-metadata-txt="Caption: {caption}\n{likes} likes\n{comments} comments\n" --filename-pattern={date_utc:%Y}/{shortcode}
 ```
 
 This should create the following directory structure:
